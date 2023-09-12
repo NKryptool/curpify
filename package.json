@@ -1,0 +1,36 @@
+{
+  "name": "curpify",
+  "version": "1.0.0",
+  "description": "Random CURP generator for the country Mexico and validator",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node dist/index.js"
+  },
+  "bin": {
+    "curpify": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NKryptool/curpify.git"
+  },
+  "keywords": [
+    "CURP",
+    "CLI",
+    "GENERATOR",
+    "VALIDATOR"
+  ],
+  "author": "NKriptool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NKryptool/curpify/issues"
+  },
+  "homepage": "https://github.com/NKryptool/curpify#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "curp": "^1.2.2",
+    "enquirer": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0"
+  }
+}
